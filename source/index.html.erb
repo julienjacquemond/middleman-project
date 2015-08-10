@@ -7,7 +7,7 @@ title: Le Wagon Middleman boilerplate
       <div class="banner-content fade-and-slide">
         <h1>Startup tools</h1>
         <p>Very cool stuff, useful and smart</p>
-        <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn btn-primary btn-lg">GET IT</a>
+        <%= link_to "Get It", "#", class: "btn btn-primary btn-lg" %>
       </div>
     </div>
 
@@ -16,7 +16,7 @@ title: Le Wagon Middleman boilerplate
         <div class="col-xs-12 col-sm-3">
           <div class="feature">
             <h2>
-              <img src="images/chat.png" alt="">
+              <%= image_tag "chat.png" %>
               Discuss best tools
             </h2>
             <p>
@@ -27,7 +27,7 @@ title: Le Wagon Middleman boilerplate
         <div class="col-xs-12 col-sm-3">
           <div class="feature">
             <h2>
-              <img src="images/mobile.png" alt="">
+              <%= image_tag "mobile.png" %>
               Always in sync
             </h2>
             <p>
@@ -38,7 +38,7 @@ title: Le Wagon Middleman boilerplate
         <div class="col-xs-12 col-sm-3">
           <div class="feature">
             <h2>
-              <img src="images/search.png" alt="">
+              <%= image_tag "search.png" %>
               Powerful search
             </h2>
             <p>
@@ -49,7 +49,7 @@ title: Le Wagon Middleman boilerplate
         <div class="col-xs-12 col-sm-3">
           <div class="feature">
             <h2>
-              <img src="images/heart.png" alt="">
+              <%= image_tag "heart.png" %>
               Share the love
             </h2>
             <p>
@@ -74,7 +74,7 @@ title: Le Wagon Middleman boilerplate
                 <p>Very cool stuff, useful and smart</p>
               </span>
               <span class="card-user">
-                <img src='http://placehold.it/50x50' class="avatar avatar-bordered"/>
+                <%= image_tag 'http://placehold.it/50x50', class: "avatar avatar-bordered" %>
               </span>
               <a href="#" class="card-link"></a>
             </div>
@@ -89,7 +89,7 @@ title: Le Wagon Middleman boilerplate
                 <p>Very cool stuff, useful and smart</p>
               </span>
               <span class="card-user">
-                <img src='http://placehold.it/50x50' class="avatar avatar-bordered"/>
+                <%= image_tag 'http://placehold.it/50x50', class: "avatar avatar-bordered" %>
               </span>
               <a href="#" class="card-link"></a>
             </div>
@@ -104,7 +104,7 @@ title: Le Wagon Middleman boilerplate
                 <p>Very cool stuff, useful and smart</p>
               </span>
               <span class="card-user">
-                <img src='http://placehold.it/50x50' class="avatar avatar-bordered"/>
+                <%= image_tag 'http://placehold.it/50x50', class: "avatar avatar-bordered" %>
               </span>
               <a href="#" class="card-link"></a>
             </div>
